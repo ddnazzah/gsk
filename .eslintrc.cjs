@@ -9,6 +9,7 @@ module.exports = {
         'plugin:react/recommended',
         'plugin:react-hooks/recommended',
         'plugin:prettier/recommended',
+        'plugin:react/jsx-runtime',
     ],
     overrides: [
         {
@@ -27,5 +28,4 @@ module.exports = {
         sourceType: 'module',
     },
     plugins: ['@typescript-eslint', 'react', 'prettier'],
-    rules: {},
 }
