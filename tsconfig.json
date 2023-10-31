@@ -5,6 +5,14 @@
         "lib": ["ES2020", "DOM", "DOM.Iterable"],
         "module": "ESNext",
         "skipLibCheck": true,
+        "baseUrl": "./src", // This is to avoid adding the ./src prefix to each path below.
+        "paths": {
+            "@components/*": ["components/*"],
+            "@hooks/*": ["hooks/*"],
+            "@assets/*": ["assets/*"],
+            "@screen/*": ["screen/*"],
+            "@config/*": ["config/*"]
+        },
 
         /* Bundler mode */
         "moduleResolution": "bundler",
