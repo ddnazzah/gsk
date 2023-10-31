@@ -2,7 +2,7 @@
  * @Author: Dieu-Donne Nazzah
  * @Date: 2023-10-29 04:29:14
  * @Last Modified by: Dieu-Donne Nazzah
- * @Last Modified time: 2023-10-31 17:39:43
+ * @Last Modified time: 2023-10-31 19:05:22
  */
 
 // import img from '@assets/images/5026563.jpg
@@ -182,7 +182,7 @@ export default function Home() {
                                             variants={banner}
                                             className="text-6xl font-bold uppercase tracking-wide text-gray-50 sm:text-9xl"
                                         >
-                                            Serlom
+                                            Selorm
                                         </motion.h1>
                                         <motion.h1
                                             variants={banner}
@@ -324,10 +324,10 @@ export default function Home() {
                             <div className="w-10 lg:w-40">
                                 <div className="relative flex flex-col items-center">
                                     <a
-                                        href="mailto:klogoselorm@yahoo.com"
+                                        href="mailto:gsklogo.coe@knust.edu.gh"
                                         className="writing-vrl relative inline-flex items-center text-xs tracking-wide hover:text-yellow-500"
                                     >
-                                        klogoselorm@yahoo.com
+                                        gsklogo.coe@knust.edu.gh
                                         <div className="mt-4 h-5 w-1 border-l border-gray-400 md:h-60"></div>
                                     </a>
                                 </div>
