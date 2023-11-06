@@ -1,7 +1,12 @@
-import { createHashRouter } from 'react-router-dom'
+import { createBrowserRouter } from 'react-router-dom'
 import Home from '../screens/Home/Home'
+import Jigsaw from 'screens/Jigsaw/jigsaw'
 
-const router = createHashRouter([
+const router = createBrowserRouter([
+    {
+        path: '/jigsaw',
+        element: <Jigsaw />,
+    },
     {
         path: '/',
         element: <Home />,
