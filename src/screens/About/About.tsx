@@ -2,7 +2,7 @@
  * @Author: Dieu-Donne Nazzah
  * @Date: 2023-10-29 04:29:14
  * @Last Modified by: Dieu-Donne Nazzah
- * @Last Modified time: 2023-11-06 23:38:25
+ * @Last Modified time: 2023-11-07 01:14:11
  */
 
 // import img from '@assets/images/5026563.jpg
@@ -29,27 +29,6 @@ export default function About() {
         },
     }
 
-    const image = {
-        hidden: { opacity: 0, y: 200 },
-        show: {
-            opacity: 1,
-            y: 0,
-            transition: {
-                ease: 'easeInOut',
-                duration: 1.6,
-                delay: 1,
-            },
-        },
-        exit: {
-            opacity: 0,
-            y: -200,
-            transition: {
-                ease: 'easeInOut',
-                duration: 0.8,
-            },
-        },
-    }
-
     const info = {
         hidden: { opacity: 0, y: 200 },
         show: {
@@ -64,48 +43,6 @@ export default function About() {
         exit: {
             opacity: 0,
             y: -200,
-            transition: {
-                ease: 'easeInOut',
-                duration: 0.8,
-            },
-        },
-    }
-
-    const banner = {
-        hidden: { opacity: 0, y: 200 },
-        show: {
-            opacity: 1,
-            y: 0,
-            transition: {
-                ease: 'easeInOut',
-                duration: 1.6,
-                delay: 3,
-            },
-        },
-        exit: {
-            opacity: 0,
-            y: -200,
-            transition: {
-                ease: 'easeInOut',
-                duration: 0.8,
-            },
-        },
-    }
-
-    const vote = {
-        hidden: { opacity: 0, x: -200 },
-        show: {
-            opacity: 1,
-            x: 0,
-            transition: {
-                ease: 'easeInOut',
-                duration: 1.6,
-                delay: 1.3,
-            },
-        },
-        exit: {
-            opacity: 0,
-            x: -200,
             transition: {
                 ease: 'easeInOut',
                 duration: 0.8,
