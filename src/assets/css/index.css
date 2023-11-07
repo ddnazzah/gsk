@@ -29,3 +29,27 @@ ul.list-disc li:before {
     margin: 0 5px 0 -15px;
     font-size: x-small;
 }
+
+#jigsaw .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10% 10% 10%;
+}
+
+#jigsaw .side {
+    width: 500px;
+    height: 500px;
+    border: 2px solid #666;
+}
+
+#jigsaw .heading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#jigsaw .image {
+    background: url("../images/gsk-jigsaw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,7 +1,7 @@
 {
   "name": "gsk",
   "private": true,
-  "version": "0.2.1",
+  "version": "0.3.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,6 +16,7 @@
     "@heroicons/react": "^2.0.18",
     "add": "^2.0.6",
     "firebase": "^10.5.2",
+    "headbreaker": "^3.0.0",
     "framer-motion": "^10.16.4",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
