@@ -1,3 +1,27 @@
+## [0.2.1](https://github.com/ddnazzah/gsk/compare/v0.2.0...v0.2.1) (2023-11-07)
+
+
+### Bug Fixes
+
+* :bug: fix deploy issues ([43dfb04](https://github.com/ddnazzah/gsk/commit/43dfb0474da818bc1586589cef22e59365974322))
+
+
+
+# [0.2.0](https://github.com/ddnazzah/gsk/compare/v0.1.1...v0.2.0) (2023-11-07)
+
+
+### Bug Fixes
+
+* :bug: fix missing dependency ([22b75a1](https://github.com/ddnazzah/gsk/commit/22b75a1048e29a490281f8874ffbe642b10b6190))
+* :bug: fix name, email and meta deta ([ac13965](https://github.com/ddnazzah/gsk/commit/ac13965e0993254b0308019e6de2e69d573086e2))
+
+
+### Features
+
+* **about:** :sparkles: add about me ([caf7f7f](https://github.com/ddnazzah/gsk/commit/caf7f7f03c68b234b2e3c7a3fe76434cb20f067e))
+
+
+
 ## [0.1.1](https://github.com/ddnazzah/gsk/compare/v0.1.0...v0.1.1) (2023-10-31)
 
 

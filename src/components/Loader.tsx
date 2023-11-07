@@ -20,7 +20,10 @@ function Loader({ setLoading }: Props) {
     }
 
     const item = {
-        hidden: { opacity: 0, y: 200 },
+        hidden: {
+            opacity: 0,
+            // y: 200
+        },
         show: {
             opacity: 1,
             y: 0,
@@ -31,7 +34,7 @@ function Loader({ setLoading }: Props) {
         },
         exit: {
             opacity: 0,
-            y: -200,
+            // y: -200,
             transition: {
                 ease: 'easeInOut',
                 duration: 0.8,

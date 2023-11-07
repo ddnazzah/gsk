@@ -2,11 +2,11 @@
  * @Author: Dieu-Donne Nazzah
  * @Date: 2023-10-29 04:49:56
  * @Last Modified by: Dieu-Donne Nazzah
- * @Last Modified time: 2023-10-31 17:08:31
+ * @Last Modified time: 2023-11-07 00:15:43
  */
 import useStrawVote from '@hooks/useStrawVote'
 import { motion } from 'framer-motion'
-import logo from '../assets/images/logo.svg'
+import logo from '../assets/images/knustlogo.png'
 
 function Header() {
     const container = {
@@ -25,7 +25,7 @@ function Header() {
             x: 0,
             transition: {
                 ease: 'easeInOut',
-                duration: 1.6,
+                duration: 1,
                 delay: 3.5,
             },
         },
